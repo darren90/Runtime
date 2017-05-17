@@ -9,6 +9,12 @@
 #import "ViewController.h"
 #import "Run_00_CommonVc.h"
 #import "Run_01_IvarValueChangeVc.h"
+#import "Run_02_addMethodVc.h"
+#import "Run_03_MethodSwizzlingVc.h"
+#import "Run_04_MethodReplaceVc.h"
+#import "Run_05_MethodExtraFuncVc.h"
+#import "Run_06_NSCodingVc.h"
+#import "Run_07_AutoConvertVc.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *datas;
@@ -78,37 +84,37 @@
         }
             break;
         case 2: {
-            Run_00_CommonVc *vc = [[Run_00_CommonVc alloc]init];
+            Run_02_addMethodVc *vc = [mainStoryBoard instantiateViewControllerWithIdentifier:@"run02"];
             vc.title = title;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 3: {
-            Run_00_CommonVc *vc = [[Run_00_CommonVc alloc]init];
+            Run_03_MethodSwizzlingVc *vc = [mainStoryBoard instantiateViewControllerWithIdentifier:@"run03"];
             vc.title = title;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 4: {
-            Run_00_CommonVc *vc = [[Run_00_CommonVc alloc]init];
+            Run_04_MethodReplaceVc *vc = [mainStoryBoard instantiateViewControllerWithIdentifier:@"run04"];
             vc.title = title;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 5: {
-            Run_00_CommonVc *vc = [[Run_00_CommonVc alloc]init];
+            Run_05_MethodExtraFuncVc *vc = [mainStoryBoard instantiateViewControllerWithIdentifier:@"run05"];
             vc.title = title;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 6: {
-            Run_00_CommonVc *vc = [[Run_00_CommonVc alloc]init];
+            Run_06_NSCodingVc *vc = [mainStoryBoard instantiateViewControllerWithIdentifier:@"run06"];
             vc.title = title;
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 7: {
-            Run_00_CommonVc *vc = [[Run_00_CommonVc alloc]init];
+            Run_07_AutoConvertVc *vc = [mainStoryBoard instantiateViewControllerWithIdentifier:@"run07"];
             vc.title = title;
             [self.navigationController pushViewController:vc animated:YES];
         }

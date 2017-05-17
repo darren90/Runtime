@@ -16,6 +16,12 @@
 		896C07531ECAF35700C6D682 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07521ECAF35700C6D682 /* Person.m */; };
 		896C07571ECB21F700C6D682 /* Run_00_CommonVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07561ECB21F700C6D682 /* Run_00_CommonVc.m */; };
 		896C075A1ECB267A00C6D682 /* Run_01_IvarValueChangeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07591ECB267A00C6D682 /* Run_01_IvarValueChangeVc.m */; };
+		896C07631ECC2E8700C6D682 /* Run_02_addMethodVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07621ECC2E8700C6D682 /* Run_02_addMethodVc.m */; };
+		896C07661ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07651ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.m */; };
+		896C07691ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07681ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.m */; };
+		896C076C1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C076B1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.m */; };
+		896C076F1ECC2F1000C6D682 /* Run_06_NSCodingVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C076E1ECC2F1000C6D682 /* Run_06_NSCodingVc.m */; };
+		896C07721ECC2F4900C6D682 /* Run_07_AutoConvertVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 896C07711ECC2F4900C6D682 /* Run_07_AutoConvertVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,18 @@
 		896C07561ECB21F700C6D682 /* Run_00_CommonVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_00_CommonVc.m; sourceTree = "<group>"; };
 		896C07581ECB267A00C6D682 /* Run_01_IvarValueChangeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_01_IvarValueChangeVc.h; sourceTree = "<group>"; };
 		896C07591ECB267A00C6D682 /* Run_01_IvarValueChangeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_01_IvarValueChangeVc.m; sourceTree = "<group>"; };
+		896C07611ECC2E8700C6D682 /* Run_02_addMethodVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_02_addMethodVc.h; sourceTree = "<group>"; };
+		896C07621ECC2E8700C6D682 /* Run_02_addMethodVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_02_addMethodVc.m; sourceTree = "<group>"; };
+		896C07641ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_03_MethodSwizzlingVc.h; sourceTree = "<group>"; };
+		896C07651ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_03_MethodSwizzlingVc.m; sourceTree = "<group>"; };
+		896C07671ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_04_MethodReplaceVc.h; sourceTree = "<group>"; };
+		896C07681ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_04_MethodReplaceVc.m; sourceTree = "<group>"; };
+		896C076A1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_05_MethodExtraFuncVc.h; sourceTree = "<group>"; };
+		896C076B1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_05_MethodExtraFuncVc.m; sourceTree = "<group>"; };
+		896C076D1ECC2F1000C6D682 /* Run_06_NSCodingVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_06_NSCodingVc.h; sourceTree = "<group>"; };
+		896C076E1ECC2F1000C6D682 /* Run_06_NSCodingVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_06_NSCodingVc.m; sourceTree = "<group>"; };
+		896C07701ECC2F4800C6D682 /* Run_07_AutoConvertVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run_07_AutoConvertVc.h; sourceTree = "<group>"; };
+		896C07711ECC2F4900C6D682 /* Run_07_AutoConvertVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run_07_AutoConvertVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,18 @@
 				896C07561ECB21F700C6D682 /* Run_00_CommonVc.m */,
 				896C07581ECB267A00C6D682 /* Run_01_IvarValueChangeVc.h */,
 				896C07591ECB267A00C6D682 /* Run_01_IvarValueChangeVc.m */,
+				896C07611ECC2E8700C6D682 /* Run_02_addMethodVc.h */,
+				896C07621ECC2E8700C6D682 /* Run_02_addMethodVc.m */,
+				896C07641ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.h */,
+				896C07651ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.m */,
+				896C07671ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.h */,
+				896C07681ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.m */,
+				896C076A1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.h */,
+				896C076B1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.m */,
+				896C076D1ECC2F1000C6D682 /* Run_06_NSCodingVc.h */,
+				896C076E1ECC2F1000C6D682 /* Run_06_NSCodingVc.m */,
+				896C07701ECC2F4800C6D682 /* Run_07_AutoConvertVc.h */,
+				896C07711ECC2F4900C6D682 /* Run_07_AutoConvertVc.m */,
 			);
 			path = RunDemoVc;
 			sourceTree = "<group>";
@@ -176,9 +206,15 @@
 				896C07421ECAF31700C6D682 /* ViewController.m in Sources */,
 				896C073F1ECAF31700C6D682 /* AppDelegate.m in Sources */,
 				896C07571ECB21F700C6D682 /* Run_00_CommonVc.m in Sources */,
+				896C076F1ECC2F1000C6D682 /* Run_06_NSCodingVc.m in Sources */,
+				896C076C1ECC2EF700C6D682 /* Run_05_MethodExtraFuncVc.m in Sources */,
 				896C075A1ECB267A00C6D682 /* Run_01_IvarValueChangeVc.m in Sources */,
+				896C07721ECC2F4900C6D682 /* Run_07_AutoConvertVc.m in Sources */,
+				896C07691ECC2ECA00C6D682 /* Run_04_MethodReplaceVc.m in Sources */,
 				896C07531ECAF35700C6D682 /* Person.m in Sources */,
 				896C073C1ECAF31700C6D682 /* main.m in Sources */,
+				896C07661ECC2E9600C6D682 /* Run_03_MethodSwizzlingVc.m in Sources */,
+				896C07631ECC2E8700C6D682 /* Run_02_addMethodVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
